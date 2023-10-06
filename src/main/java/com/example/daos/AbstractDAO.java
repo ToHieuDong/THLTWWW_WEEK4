@@ -14,6 +14,8 @@ public abstract class AbstractDAO<T, ID> {
     protected JdbcTemplate jdbcTemplate;
 
 
+    //sfsf
+
     public AbstractDAO(DataSource dataSource) {
         this.dataSource = dataSource;
         jdbcTemplate =  new JdbcTemplate(dataSource);
